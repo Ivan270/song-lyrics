@@ -1,0 +1,10 @@
+.verso {
+    width: 50% !important;
+    text-decoration: none;
+    transition: transform 0.2s ease-in, text-decoration 0.5s ease-in-out;
+}
+
+.verso:hover {
+    transform: scale(110%);
+    text-decoration: underline #dc3545;
+}
